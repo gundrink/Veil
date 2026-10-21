@@ -1,0 +1,28 @@
+[toolchain]
+package_manager = "yarn"
+anchor_version = "0.31.0"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+cipherpay = "HWU77LBoeg7XFpADmc4poPzY1cyVKdVdCygef7xsUMgj"
+
+[programs.devnet]
+cipherpay = "HWU77LBoeg7XFpADmc4poPzY1cyVKdVdCygef7xsUMgj"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "localnet"
+wallet = '~/.config/solana/id.json'
+
+[test.validator]
+bind_address = "127.0.0.1"
+rpc_port = 18998
+
+
+[scripts]
+test = "cargo test -p cipherpay --test payout_protocol"

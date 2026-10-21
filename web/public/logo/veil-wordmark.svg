@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48" role="img" aria-label="Veil">
+  <rect x="0" y="4" width="40" height="40" fill="#2563eb"/>
+  <path d="M8 16 L20 32 L32 16" fill="none" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="miter"/>
+  <path d="M13 16 L20 24.5 L27 16" fill="#1d4ed8"/>
+  <text x="52" y="34" fill="#111111" font-family="ui-sans-serif, system-ui, sans-serif" font-size="28" font-weight="600" letter-spacing="-0.06em">Veil</text>
+</svg>
